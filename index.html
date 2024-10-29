@@ -394,9 +394,32 @@
                                 </li>
                         </ul>
                     </div>    
-        </div>                     
+        </div> 
+        <div  class="form-container">
+            <p class="subscribe_paragraph">Subscribe</p>
+            <form class="subscribe_form">
+                <label class="email-label">
+                    <span class="input-label-text">Email</span>
+                    <input name="user_email"
+                        type="email"
+                        placeholder="E-mail"
+                    class="email_input"/>
+                </label>
+                <button type="submit"
+                class="submit-button">Subscribe
+                <svg    width="24"
+                        height="20" 
+                        class="svg_icon">
+                    <use href="./images/icons.svg#icon-telegram"> </use>
+                </svg>
+
+                </button>
+                
+
+            </form>
+        </div>                    
     </footer>
-    <div class="backdrop ">
+    <div class="backdrop">
         <div class="window">
             <button type="button" class="window-open">
                 <svg    width="8"
@@ -452,15 +475,17 @@
                         id="user-privacy" 
                         class="window-check visually-hidden"
                         value="true">
+                        
                         <label for="user-privacy" class="window-check-text"><span>
                             <svg class="window-check-icon"   
                                     width="10"
                                     height="8">
                                 <use href="./images/icons.svg#icon-check"></use>
                             </svg>
-                        </span>I accept the terms and conditions of the<span class="window-privacy">Privacy Policy</span>
-                    <a href="Privacy-Policy"></a>
-                                </label>
+                        </span>I accept the terms and conditions of the<a href="/privacy-policy" class="privacy_policy_link" style="color: var(--link-color, #4d5ae5);">
+                            Privacy Policy
+                        </a>
+                    </label>
                 </div>
                 <button type="submit" class="submit">Send</button>
             </form>
