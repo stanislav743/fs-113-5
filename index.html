@@ -15,8 +15,7 @@
 <body>
     <header class="header">
         <div class="container header-container">
-        <nav class="header-navigation">
-                       
+        <nav class="header-navigation">   
             <a class="logo header-logo" href ="./index.html">Web<span class="header-logo-raleway">Studio</span></a>
             
                 <ul class="header-menu-list">
@@ -396,33 +395,30 @@
                     </div>    
         </div> 
         <div  class="form-container">
-            <p class="subscribe_paragraph">Subscribe</p>
-            <form class="subscribe_form">
+            <p class="subscribe-paragraph">Subscribe</p>
+            <form class="subscribe-form">
                 <label class="email-label">
                     <span class="input-label-text">Email</span>
-                    <input name="user_email"
+                    <input name="user-email"
                         type="email"
                         placeholder="E-mail"
-                    class="email_input"/>
+                    class="email-input" required aria-label="Email address"/>
                 </label>
                 <button type="submit"
                 class="submit-button">Subscribe
-                <svg    width="24"
-                        height="20" 
-                        class="svg_icon">
-                    <use href="./images/icons.svg#icon-telegram"> </use>
-                </svg>
-
+                    <svg    width="24"
+                            height="20" 
+                            class="svg-icon">
+                    <use href="./images/icons.svg#icon-telegram"></use>
+                    </svg>
                 </button>
-                
-
             </form>
         </div>                    
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-open">
         <div class="window">
             <button type="button" class="window-open">
-                <svg    width="8"
+                <svg  class="window-button"  width="8"
                         height="8"
                         >
                 <use class="window-vector" href="./images/icons.svg#icon-Vector-1"></use>
@@ -476,13 +472,13 @@
                         class="window-check visually-hidden"
                         value="true">
                         
-                        <label for="user-privacy" class="window-check-text"><span>
+                        <label for="user-privacy" class="window-check-text"><span class="window-span">
                             <svg class="window-check-icon"   
                                     width="10"
                                     height="8">
                                 <use href="./images/icons.svg#icon-check"></use>
                             </svg>
-                        </span>I accept the terms and conditions of the<a href="/privacy-policy" class="privacy_policy_link" style="color: var(--link-color, #4d5ae5);">
+                        </span>I accept the terms and conditions of the<a href="/privacy-policy" class="privacy-policy-link" style="color: var(--link-color, #4d5ae5);">
                             Privacy Policy
                         </a>
                     </label>
@@ -491,6 +487,7 @@
             </form>
         </div>
     </div>
+
 </body> 
 
 </html>
