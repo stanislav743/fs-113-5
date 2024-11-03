@@ -601,11 +601,11 @@ color: #fff;
         color: #ffffff;
 }
 .email-label{
-    display: flex;
+
     flex-direction: column;
 }
 .email-input{
-    height: 40px;
+   height: 40px;
     width: 264px;
     border: 1px solid #ffffff;
     background-color: transparent; 
@@ -618,6 +618,7 @@ color: #fff;
     color: #ffffff;  
 
 }
+
 ::placeholder{
     color: #ffffff;}
 .svg-icon{
@@ -666,13 +667,11 @@ border-radius: 4px;
     visibility: visible;
     pointer-events: auto;
 }
-.backdrop : not (.is-open).window{ 
+.backdrop: not (.is-open).window{ 
 transform: translate(-50%,-100%);
-padding: 72px 24px 24px 24px;
 }
 
 .window{
-   
     border-radius: 4px;
     width: 408px;
     min-height: 584px;
@@ -695,6 +694,7 @@ display: flex;
 align-items: center;
 justify-content:center;
 width: 24px;
+height: 24px;
 
 margin-bottom: 24px;
 background-color: #e7e9fc;
@@ -738,7 +738,7 @@ margin-bottom: 16px;
 }
 
 .window-field{
-  
+  padding: 72px 24px 24px 24 px;
     margin-bottom: 8px;
 }
 .window-input{
